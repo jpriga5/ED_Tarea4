@@ -28,9 +28,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        CCuenta cuenta1 = new CCuenta("Antonio López", "1000-2365-85-1230456789", 2500, 0);
-        operativa_cuenta(cuenta1,2300);
-        System.out.println(cuenta1);
+        CCuenta cuentaPrueba = new CCuenta("Antonio López", "1000-2365-85-1230456789", 2500, 0);
+        operativa_cuenta(cuentaPrueba,2300);
+        System.out.println(cuentaPrueba);
         
 
     }
